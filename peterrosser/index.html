@@ -8,11 +8,31 @@
 		<h1>Peter Rosser</h1>
 	</div>
 	<div class="menu">
-		<div class="option">about</div>
-		<div class="option">projects</div>
-		<div class="option">contact</div>
+		<div class="option"><h3>about</h3></div>
+		<div class="option"><h3>projects</h3></div>
+		<div class="option"><h3>contact</h3></div>
 	</div>
 	<div class="content">
-		content
+		* Download a text editor - I use Sublime Text.<br>
+		* Create an account with DigitalOcean.com.<br>
+		* Create an account with NameCheap.com.<br>
+		* Edit the NC settings to point DNS &amp; CNAME values to DO.<br>
+		* Create an account with Github.com.<br>
+		* Download puTTY.<br>
+		* Create SSH Keys with no passwords. Edit the DO settings to accept these SSH keys.<br>
+		* Log into your DO server via SSH.<br>
+		* Install Golang on DO server.<br>
+		* Configure GOPATH &amp; GOROOT values.<br>
+		* clone the webserver from github to your local machine<br>
+		* edit it to point to your own folders.<br>
+		* commit it. push it to the web.<br>
+		* download the webserver from github on your DO server.<br>
+		* start the webserver anonymously using "webserver &amp;"<br> 
+		* TODO:create the content you want on your local machine.<br>
+		* commit it. push it to the web.<br>
+		* download the content from github on your DO server.<br>
+		* TODO:if this last step is done using a regular scheduled job or githook, we only have to set that up once.<br>
+		* TODO:scheduler to do all of this if the service restarts.<br>
+		* TODO:if the content isn't static, make golang packages that are continuously downloaded and installed to dynamically serve content.<br>
 	</div>
 </body>

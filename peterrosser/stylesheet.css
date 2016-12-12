@@ -1,11 +1,14 @@
 * {
 	box-sizing: border-box;
+	max-width: 720px;
+	margin: auto;
 }
 
 .title {
 	width: 100%;
 	text-align: center;
 	border: 4px solid;
+	margin-top: 40px;
 }
 
 .menu {
@@ -15,11 +18,15 @@
 .option {
 	width: 100%;
 	text-align: center;
+	margin-top: 10px;
+	margin-left: 4px;
+	margin-right: 4px;
 	border: 4px solid;
 }
 
 .content {
 	width: 100%;
 	text-align: justify;
+	margin-top: 10px;
 	border: 4px solid;
 }
